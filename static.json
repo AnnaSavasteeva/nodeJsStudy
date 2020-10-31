@@ -1,7 +1,8 @@
 {
   "headers": {
     "/*": {
-      "X-Author": "anna_savasteeva"
+      "X-Author": "anna_savasteeva",
+      "Access-Control-Allow-Origin": "*"
     }
   }
 }
