@@ -1,4 +1,7 @@
 {
+  {
+    "https_only": true
+  },
   "headers": {
     "/*": {
       "X-Author": "anna_savasteeva",
@@ -7,6 +10,10 @@
     "/login/": {
       "Content-Type": "text/plain; charset=UTF-8",
       "Access-Control-Allow-Origin": "*"
-    }
+    },
+    "/sample/": {
+      "Content-Type": "text/plain; charset=UTF-8",
+      "Access-Control-Allow-Origin": "*"
+    },
   }
 }
