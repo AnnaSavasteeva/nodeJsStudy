@@ -1,5 +1,4 @@
 {
-  "https_only": true,
   "headers": {
     "/*": {
       "X-Author": "anna_savasteeva",
