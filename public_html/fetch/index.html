@@ -12,20 +12,21 @@
     <button id="bt">Click me</button>
 
     <script>
-        const inp = document.getElementById('inp');
-        const btn = document.getElementById('bt');
-
-        btn.addEventListener('click', async () => {
-            const value = inp.value;
-
-            await fetch(value)
-                .then((data) => {
-                    data.text().then((newValue) => {
-                        inp.value = newValue;
-                    });
-                })
-                .catch((e) => console.log(e))
-        });
+        const listener = () => {
+			const btn = document.getElementById('bt');
+			btn.addEventListener('click', () => {
+				const inp = document.getElementById('inp');
+				const { value } = input;
+				fetch(value)
+					.then((data) => {
+						data.text().then((newValue) => {
+							inp.value = newValue;
+						});
+					})
+					.catch((e) => console.log(e))
+			});
+		};
+		listener();
     </script>
 </body>
 
