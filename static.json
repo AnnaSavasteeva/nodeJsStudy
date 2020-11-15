@@ -5,13 +5,15 @@
       "Access-Control-Allow-Origin": "*"
     },
     "/*": {
-      "X-Author": "anna_savasteeva",
-      "Access-Control-Allow-Origin": "*"
+      "X-Author": "anna_savasteeva"
     },
     "/login/": {
       "Content-Type": "text/plain; charset=UTF-8"
     },
     "/sample/": {
+      "Content-Type": "text/plain; charset=UTF-8"
+    },
+    "/promise/": {
       "Content-Type": "text/plain; charset=UTF-8"
     }
   }
