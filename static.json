@@ -1,11 +1,12 @@
 {
   "https_only": true,
   "headers": {
-    "/**": {
+    "/*/*": {
       "Access-Control-Allow-Origin": "*"
     },
     "/*": {
-      "X-Author": "anna_savasteeva"
+      "X-Author": "anna_savasteeva",
+      "Access-Control-Allow-Origin": "*"
     },
     "/login/": {
       "Content-Type": "text/plain; charset=UTF-8"
